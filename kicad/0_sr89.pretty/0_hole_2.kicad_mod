@@ -1,0 +1,103 @@
+(footprint "0_hole_2"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "99b8232d-9c7b-419a-9c51-828cb026d885")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "0_hole_2"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29183f75-35d8-4e68-bcbe-18df049b8dd6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d5f0486-9034-48dd-96bf-36171126ac48")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d07638f4-e7ff-45f2-8602-d3eaa3a5e1b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start 4.44 -0.85)
+		(end 5.075122 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dbce2158-210d-46ea-ab98-6c4a866b4324")
+	)
+	(fp_line
+		(start 4.44 0.85)
+		(end 5.085 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "213f05ef-5897-4d6b-a65e-ce7ade48f0c7")
+	)
+	(fp_arc
+		(start 4.44 0.85)
+		(mid 3.594985 0)
+		(end 4.44 -0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "917e7bf3-de19-4cad-92bc-9b46bbb7c88d")
+	)
+	(fp_arc
+		(start 5.085 -0.85)
+		(mid 5.930015 0)
+		(end 5.085 0.85)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "338a7f9c-f4c3-4e0d-b1e1-372bf2859c84")
+	)
+	(embedded_fonts no)
+)
