@@ -9,14 +9,14 @@
         "apply_defaults_to_fp_shapes": false,
         "apply_defaults_to_fp_text": false,
         "board_outline_line_width": 0.05,
-        "copper_line_width": 0.2,
+        "copper_line_width": 0.254,
         "copper_text_italic": false,
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
         "copper_text_upright": false,
         "courtyard_line_width": 0.05,
-        "dimension_precision": 4,
+        "dimension_precision": 3,
         "dimension_units": 3,
         "dimensions": {
           "arrow_length": 1270000,
@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.8,
-          "height": 1.27,
-          "width": 2.54
+          "drill": 0.0,
+          "height": 0.95,
+          "width": 0.8
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -52,21 +52,21 @@
         "zones": {
           "border_display_style": 2,
           "border_hatch_pitch": 0.5,
-          "corner_radius": 0.0,
-          "corner_smoothing": 0,
+          "corner_radius": 0.508,
+          "corner_smoothing": 2,
           "fill_mode": 0,
           "hatch_gap": 1.5,
           "hatch_orientation": 0.0,
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.381,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
+          "min_thickness": 0.254,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.381,
+          "thermal_relief_spoke_width": 0.381
         }
       },
       "diff_pair_dimensions": [
@@ -74,6 +74,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.254,
+          "via_gap": 0.254,
+          "width": 0.254
         }
       ],
       "drc_exclusions": [],
@@ -170,73 +175,75 @@
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
           "td_onsmdpad": true,
-          "td_ontrackend": false,
+          "td_ontrackend": true,
           "td_onvia": true
         }
       ],
       "teardrop_parameters": [
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 0.6,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxheight": 1.016,
+          "td_maxlen": 0.508,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_round_shape",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 1.0
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 0.6,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxheight": 1.016,
+          "td_maxlen": 0.508,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_rect_shape",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 1.0
         },
         {
           "td_allow_use_two_tracks": true,
-          "td_curve_segcount": 0,
-          "td_height_ratio": 1.0,
+          "td_curve_segcount": 1,
+          "td_height_ratio": 0.6,
           "td_length_ratio": 0.5,
-          "td_maxheight": 2.0,
-          "td_maxlen": 1.0,
+          "td_maxheight": 1.016,
+          "td_maxlen": 0.508,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 1.0
         }
       ],
       "track_widths": [
         0.0,
-        0.254
+        0.254,
+        0.381,
+        0.508
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 1.016,
+          "min_amplitude": 0.254,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 0.508
         },
         "diff_pair_skew_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 1.016,
+          "min_amplitude": 0.254,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.508
         },
         "single_track_defaults": {
-          "corner_radius_percentage": 80,
+          "corner_radius_percentage": 100,
           "corner_style": 1,
-          "max_amplitude": 1.0,
-          "min_amplitude": 0.2,
+          "max_amplitude": 1.016,
+          "min_amplitude": 0.254,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 0.508
         }
       },
       "via_dimensions": [
@@ -278,7 +285,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "isolated_pin_label|2159000|1498600|ec7dbd78-649b-47a0-a84d-385e4954bf38|00000000-0000-0000-0000-000000000000|/eb3fbad3-3d70-4213-9c36-41e079fed6f2/3e451df9-d0ac-4d6e-a278-2ebaec68d448||",
+        ""
+      ],
+      [
+        "isolated_pin_label|2159000|1524000|f8675866-56ff-4296-9829-106dcc191092|00000000-0000-0000-0000-000000000000|/eb3fbad3-3d70-4213-9c36-41e079fed6f2/3e451df9-d0ac-4d6e-a278-2ebaec68d448||",
+        ""
+      ],
+      [
+        "isolated_pin_label|889000|1498600|a31923cc-8e97-4840-a15d-120cafcb3d18|00000000-0000-0000-0000-000000000000|/eb3fbad3-3d70-4213-9c36-41e079fed6f2/3e451df9-d0ac-4d6e-a278-2ebaec68d448||",
+        ""
+      ],
+      [
+        "isolated_pin_label|889000|1524000|f1fe81e7-de1d-4765-8ca0-00fd99d37019|00000000-0000-0000-0000-000000000000|/eb3fbad3-3d70-4213-9c36-41e079fed6f2/3e451df9-d0ac-4d6e-a278-2ebaec68d448||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -502,8 +526,12 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "ts-flat-flex-cable"
+    ],
+    "pinned_symbol_libs": [
+      "ts-flat-flex-cable"
+    ]
   },
   "meta": {
     "filename": "sr89_udk.kicad_pro",
@@ -514,17 +542,17 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.254,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.254,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.3,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 2147483647,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.254,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -666,7 +694,7 @@
         "uuid": "eb3fbad3-3d70-4213-9c36-41e079fed6f2"
       }
     ],
-    "used_designators": "C65-66,#PWR255-262,W65,W111-112",
+    "used_designators": "X1-6,R^{ILIM}23,SW1-4,C2-62,C65-75,C77-95,C99-104,C106-108,C112,C115-122,C124-148,U6-11,W2-21,W23-62,W65-75,W77-95,W99-104,W106-108,W112,W116-122,W124-126,MT_{2}2-14,Z2-62,Z64-75,Z77-95,Z97-104,Z106-108,Z112,Z116-122,Z124-127,NT1-2,B1-2,JP1-4,R9-10,R17-26,#PWR1-9,#PWR12-35,#PWR39-50,#PWR232-235,#PWR258,#PWR299-301,#PWR317,#PWR320-323,D1-108,D112,D116-127,Q3-8,#FLG1-9",
     "variants": []
   },
   "sheets": [
@@ -685,6 +713,10 @@
     [
       "bdc08e9c-89f5-4f35-98ce-e1006ea44252",
       "RGB Per-key Array"
+    ],
+    [
+      "cbec64ce-59cb-41a3-b8b0-78fd20109fcb",
+      "RGB Power Management"
     ]
   ],
   "text_variables": {},

@@ -845,9 +845,92 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ts-kicad-lib:X"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "X"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "~"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 0.8382 0.8382)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "X_1_1"
+				(rectangle
+					(start -0.6259 0.6465)
+					(end 0.6259 -0.6465)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(image
-		(at 73.66 55.88)
+		(at 73.66 43.18)
 		(uuid "c772757c-00f3-4aed-8a2e-353da74756a6")
 		(data "iVBORw0KGgoAAAANSUhEUgAABOEAAAFmCAMAAAAcdn4eAAAAY1BMVEUAAADb29ve3t7b29v8/PzM"
 			"zMzu7u5mZmbBwcHZ2dkAAAC3t7d3d3fd3d07OzsICAjIyMgyMjKampoYGBiEhIRYWFiysrJISEgo"
@@ -1118,19 +1201,18 @@
 		)
 	)
 	(symbol
-		(lib_id "ts-kicad-lib:MouseBite")
-		(at 20.32 172.72 0)
+		(lib_id "ts-kicad-lib:X")
+		(at 93.98 171.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "146848fc-561d-4c17-a945-77aff41d8191")
-		(property "Reference" "m2"
-			(at 20.32 172.72 0)
+		(uuid "09d19667-97ff-4bee-bdf5-ca5ef06f9bc4")
+		(property "Reference" "MT_{2}7"
+			(at 93.98 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1140,19 +1222,19 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 20.32 172.72 0)
-			(hide yes)
+		(property "Value" "Pad mounting hole"
+			(at 95.504 171.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8382 0.8382)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "0_sr89:mouse-bite-.25U-slot"
-			(at 20.32 175.26 0)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 93.98 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1163,7 +1245,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 172.72 0)
+			(at 93.98 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1174,7 +1256,158 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 172.72 0)
+			(at 93.98 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 109.22 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12e973ac-fa11-4702-b690-f1ee9be523b7")
+		(property "Reference" "MT_{2}2"
+			(at 109.22 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad mounting hole"
+			(at 110.744 171.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 109.22 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:MouseBite")
+		(at 33.02 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "146848fc-561d-4c17-a945-77aff41d8191")
+		(property "Reference" "m2"
+			(at 33.02 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 33.02 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_sr89:mouse-bite-.25U-slot"
+			(at 33.02 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1195,7 +1428,7 @@
 	)
 	(symbol
 		(lib_id "ts-kicad-lib:MouseBite")
-		(at 20.32 176.53 0)
+		(at 33.02 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1206,7 +1439,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b530cf2-aeb1-4da2-85c0-c4003fb37cca")
 		(property "Reference" "m3"
-			(at 20.32 176.53 0)
+			(at 33.02 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1217,7 +1450,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 20.32 176.53 0)
+			(at 33.02 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1228,7 +1461,7 @@
 			)
 		)
 		(property "Footprint" "0_sr89:mouse-bite-.25U-slot"
-			(at 20.32 179.07 0)
+			(at 33.02 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1239,7 +1472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 176.53 0)
+			(at 33.02 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1250,7 +1483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 176.53 0)
+			(at 33.02 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1270,19 +1503,18 @@
 		)
 	)
 	(symbol
-		(lib_id "ts-kicad-lib:MouseBite")
-		(at 20.32 168.91 0)
+		(lib_id "ts-kicad-lib:X")
+		(at 93.98 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4b17a9bb-93d0-43f9-a11d-b8b26a9a9719")
-		(property "Reference" "m1"
-			(at 20.32 168.91 0)
+		(uuid "1fc9ea69-efe9-4518-8b74-ba253027b649")
+		(property "Reference" "MT_{2}11"
+			(at 93.98 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1292,19 +1524,19 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 20.32 168.91 0)
-			(hide yes)
+		(property "Value" "Pad mounting hole"
+			(at 95.504 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8382 0.8382)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "0_sr89:mouse-bite-.25U-slot"
-			(at 20.32 171.45 0)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 93.98 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1315,7 +1547,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 168.91 0)
+			(at 93.98 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1326,7 +1558,383 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 168.91 0)
+			(at 93.98 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 45.72 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2765c28e-8605-4919-9934-da3a675b297a")
+		(property "Reference" "X3"
+			(at 45.72 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OSHW Logo"
+			(at 46.99 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Symbol:OSHW-Logo_7.5x8mm_SilkScreen"
+			(at 45.72 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "X3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 109.22 172.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2841e309-645d-486a-84fe-23ffea429cd2")
+		(property "Reference" "MT_{2}3"
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad mounting hole"
+			(at 110.744 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 93.98 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33dd5d64-df48-4e01-ae5b-1e20513e2d77")
+		(property "Reference" "MT_{2}5"
+			(at 93.98 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad mounting hole"
+			(at 95.504 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 93.98 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 93.98 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "486fa28f-8bc7-4840-a27b-56204103444a")
+		(property "Reference" "MT_{2}4"
+			(at 93.98 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad mounting hole"
+			(at 95.504 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 93.98 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:MouseBite")
+		(at 33.02 168.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b17a9bb-93d0-43f9-a11d-b8b26a9a9719")
+		(property "Reference" "m1"
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_sr89:mouse-bite-.25U-slot"
+			(at 33.02 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 33.02 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1346,19 +1954,18 @@
 		)
 	)
 	(symbol
-		(lib_id "ts-kicad-lib:MouseBite")
-		(at 20.32 180.34 0)
+		(lib_id "ts-kicad-lib:X")
+		(at 93.98 172.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "608e50c0-b30f-4100-84b7-0f11a4e4cb29")
-		(property "Reference" "m4"
-			(at 20.32 180.34 0)
+		(uuid "4bf31895-a439-4d70-ba72-631ad86b12ff")
+		(property "Reference" "MT_{2}8"
+			(at 93.98 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1368,19 +1975,19 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 20.32 180.34 0)
-			(hide yes)
+		(property "Value" "Pad mounting hole"
+			(at 95.504 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8382 0.8382)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "0_sr89:mouse-bite-.25U-slot"
-			(at 20.32 182.88 0)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 93.98 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1391,7 +1998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 180.34 0)
+			(at 93.98 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1402,7 +2009,83 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 180.34 0)
+			(at 93.98 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:MouseBite")
+		(at 39.37 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "608e50c0-b30f-4100-84b7-0f11a4e4cb29")
+		(property "Reference" "m4"
+			(at 39.37 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 39.37 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_sr89:mouse-bite-.25U-slot"
+			(at 39.37 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1422,19 +2105,18 @@
 		)
 	)
 	(symbol
-		(lib_id "ts-kicad-lib:MouseBite")
-		(at 20.32 184.15 0)
+		(lib_id "ts-kicad-lib:X")
+		(at 45.72 177.8 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e114c7a9-c72b-4eb7-848a-e88e550fd97c")
-		(property "Reference" "m5"
-			(at 20.32 184.15 0)
+		(uuid "66882c61-dc92-4e30-8a70-b32256bd2a79")
+		(property "Reference" "X5"
+			(at 45.72 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1444,19 +2126,19 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 20.32 184.15 0)
-			(hide yes)
+		(property "Value" "UDK Logo"
+			(at 46.99 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8382 0.8382)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "0_sr89:mouse-bite-.25U-slot"
-			(at 20.32 186.69 0)
+		(property "Footprint" "ts-logos-lib:UDK_5mm"
+			(at 45.72 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1467,7 +2149,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 184.15 0)
+			(at 45.72 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1478,7 +2160,608 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 184.15 0)
+			(at 45.72 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "X5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 109.22 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6e412f86-ff46-4a9d-b68d-653fc70462f9")
+		(property "Reference" "MT_{2}1"
+			(at 109.22 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad mounting hole"
+			(at 110.744 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 109.22 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 93.98 173.99 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9311ec6a-cdad-487c-bd82-8171e60bee1f")
+		(property "Reference" "MT_{2}9"
+			(at 93.98 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad mounting hole"
+			(at 95.504 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 93.98 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 45.72 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a314b754-7a5f-4e17-a051-a6e375ac84cf")
+		(property "Reference" "X6"
+			(at 45.72 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "UDK Logo"
+			(at 46.99 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ts-logos-lib:UDK_5mm"
+			(at 45.72 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "X6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 45.72 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d86dad62-82a7-4c41-8679-1075015d1426")
+		(property "Reference" "X4"
+			(at 45.72 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JLCPCB Barcode"
+			(at 46.99 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ts-jlcpcb-lib:jlcpcb_order_number_5x5"
+			(at 45.72 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "X4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 93.98 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d8fc754d-eed3-41ff-a42c-b32f50b83ab7")
+		(property "Reference" "MT_{2}13"
+			(at 93.98 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad mounting hole"
+			(at 95.504 179.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 93.98 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 93.98 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d9ef0c05-b5aa-4d54-9fa9-8d4d52dc8ec0")
+		(property "Reference" "MT_{2}12"
+			(at 93.98 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad mounting hole"
+			(at 95.504 177.8 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 93.98 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 45.72 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de339d31-ca63-487b-ba94-0291837f8a74")
+		(property "Reference" "X2"
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Tecsmith Logo"
+			(at 46.99 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ts-logos-lib:Tecsmith_20mm"
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "X2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:MouseBite")
+		(at 39.37 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e114c7a9-c72b-4eb7-848a-e88e550fd97c")
+		(property "Reference" "m5"
+			(at 39.37 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 39.37 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "0_sr89:mouse-bite-.25U-slot"
+			(at 39.37 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1497,8 +2780,233 @@
 			)
 		)
 	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 93.98 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e1ff0397-6a58-40e2-a6e6-63bf7ad45941")
+		(property "Reference" "MT_{2}10"
+			(at 93.98 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad mounting hole"
+			(at 95.504 175.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 93.98 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 45.72 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fcd57324-2f1f-4dc2-bea7-d43e2e4e49d5")
+		(property "Reference" "X1"
+			(at 45.72 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Tecsmith Logo"
+			(at 46.99 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "ts-logos-lib:Tecsmith_20mm"
+			(at 45.72 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 45.72 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ts-kicad-lib:X")
+		(at 93.98 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ff438986-b0bc-4bdf-9da3-3df58ea43adf")
+		(property "Reference" "MT_{2}6"
+			(at 93.98 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Pad mounting hole"
+			(at 95.504 170.18 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8382 0.8382)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "0_sr89:MountingHole_2.2mm_M2_ISO14580"
+			(at 93.98 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 93.98 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(reference "MT_{2}6")
+					(unit 1)
+				)
+			)
+		)
+	)
 	(sheet
-		(at 17.78 96.52)
+		(at 38.1 78.74)
 		(size 30.48 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1514,7 +3022,7 @@
 		)
 		(uuid "3e451df9-d0ac-4d6e-a278-2ebaec68d448")
 		(property "Sheetname" "Matrix Shift Registers"
-			(at 17.78 95.8084 0)
+			(at 38.1 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1525,7 +3033,7 @@
 			)
 		)
 		(property "Sheetfile" "sr89_udk_registers.kicad_sch"
-			(at 17.78 119.9646 0)
+			(at 38.1 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1544,7 +3052,7 @@
 		)
 	)
 	(sheet
-		(at 100.33 96.52)
+		(at 88.9 78.74)
 		(size 30.48 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1560,7 +3068,7 @@
 		)
 		(uuid "bdc08e9c-89f5-4f35-98ce-e1006ea44252")
 		(property "Sheetname" "RGB Per-key Array"
-			(at 100.33 95.8084 0)
+			(at 88.9 78.0284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1571,7 +3079,7 @@
 			)
 		)
 		(property "Sheetfile" "sr89_udk_leds.kicad_sch"
-			(at 100.33 119.9646 0)
+			(at 88.9 102.1846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1590,7 +3098,7 @@
 		)
 	)
 	(sheet
-		(at 59.69 96.52)
+		(at 38.1 109.22)
 		(size 30.48 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1606,7 +3114,7 @@
 		)
 		(uuid "bf9c2619-9ff2-416d-9d02-c3e0d3acceea")
 		(property "Sheetname" "Key Switch Array"
-			(at 59.69 95.8084 0)
+			(at 38.1 108.5084 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1617,7 +3125,7 @@
 			)
 		)
 		(property "Sheetfile" "sr89_udk_switches.kicad_sch"
-			(at 59.69 119.9646 0)
+			(at 38.1 132.6646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1631,6 +3139,52 @@
 			(project "sr89_udk"
 				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
 					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 109.22)
+		(size 30.4851 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "cbec64ce-59cb-41a3-b8b0-78fd20109fcb")
+		(property "Sheetname" "RGB Power Management"
+			(at 88.9 108.5084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sr89_udk_ledpwr.kicad_sch"
+			(at 88.9 132.6646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "sr89_udk"
+				(path "/eb3fbad3-3d70-4213-9c36-41e079fed6f2"
+					(page "5")
 				)
 			)
 		)
